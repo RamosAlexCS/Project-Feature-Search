@@ -18,29 +18,8 @@ void pringResults(vector<double>, vector<vector<int>>);
 string Method;
 
 int main() {
-
-	//78.2% 0 features for small data
-	//81.5% 0 features for large data
 	
 	PrintMenu();
-
-	//vector<vector<float>> data = readFile("CS170_Small_Data__56.txt");
-	//double count = 0;
-
-	//for (int i = 0; i < data.size(); i++) {
-	//	if (data.at(i).at(0) == 2)
-	//		count++;
-	//}
-	//cout << count / data.size() << endl;
-
-	//data = readFile("CS170_Large_Data__65.txt");
-	//count = 0;
-
-	//for (int i = 0; i < data.size(); i++) {
-	//	if (data.at(i).at(0) == 2)
-	//		count++;
-	//}
-	//cout << count / data.size();
 
 	return 0;
 }
